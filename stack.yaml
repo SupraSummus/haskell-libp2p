@@ -1,0 +1,11 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+- location:
+    git: git@github.com:SupraSummus/haskell-multipath.git
+    commit: 38c12d6644167b188522e6d32df31149e1a7c321
+extra-deps:
+- monad-supply-0.6
+- multipath-0.1.0.0
+resolver: lts-8.5
